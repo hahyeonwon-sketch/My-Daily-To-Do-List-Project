@@ -1,4 +1,4 @@
-# My Daily To-Do 📝
+# 📝 My Daily To-Do
 
 > 작성일 : 2026-02-12
 >
@@ -69,3 +69,4 @@ My Daily To-Do List//
 
 
 ---
+
