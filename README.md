@@ -51,7 +51,8 @@ My Daily To-Do List//
 |    |---todo-list.js
 |--- docs/
 |     |--- Project-Plan.md
-|     |--- 와이어프레임.drawio
+|     |--- TODOLIST 틀.drawio
+|     |--- todolist.png
 |
 |--- .gitignore
 |
@@ -65,5 +66,6 @@ My Daily To-Do List//
 - **1주차**: 기획서 완성 + 와이어프레임 + HTML/CSS 기본 구조
 - **2주차**: 스타일링 + 반응형 + JavaScript 핵심 기능 구현
 - **3주차**: 버그 수정 + 배포 + README 작성
+
 
 ---
