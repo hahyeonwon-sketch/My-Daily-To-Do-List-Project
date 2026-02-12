@@ -52,6 +52,7 @@ My Daily To-Do List//
 |--- docs/
 |     |--- Project-Plan.md
 |     |--- 와이어프레임.drawio
+|     |--- todolist.png
 |
 |--- .gitignore
 |
