@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="페이지-1" id="RaQOOWuQ3PWkVf3Wruyi">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF6A7" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFD966;gradientColor=#FFFFFF;rotation=-180;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="385" width="400" x="214" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 33px; color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;TODO LIST&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="319" y="187" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=left;" value="&lt;font style=&quot;color: rgb(128, 128, 128);&quot;&gt;&amp;nbsp;할 일을 입력하세요.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="300" x="235" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#A50040;fillColor=#EE5E5E;fontColor=#ffffff;" value="&lt;font style=&quot;font-size: 26px; color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;&quot;&gt;+&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="540" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFFAE6;align=left;" value="자바 공부하기" vertex="1">
+          <mxGeometry height="40" width="330" x="260" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;font color=&quot;#ea6b66&quot;&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;b&gt;v&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="30" x="220" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="220" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFFAE6;align=left;" value="프론트앤드 복습하기" vertex="1">
+          <mxGeometry height="40" width="330" x="260" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(238, 79, 79); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;X&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="30" x="560" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(238, 79, 79); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;X&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="30" x="560" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="Z9V8jVxWVdJxVhblzAkd-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;오늘의 날짜 :&amp;nbsp; 2025년 2월 2일 월요일&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="355" x="235" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="eTFtoBHMV1Rib4332TVD-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;font color=&quot;#ea6b66&quot;&gt;&lt;span style=&quot;font-size: 26px;&quot;&gt;&lt;b&gt;v&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="30" x="220" y="435" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

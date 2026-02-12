@@ -1,0 +1,173 @@
+:root {
+  --bg-gradient: linear-gradient(to bottom, #fdf6d6, #fae4ae);
+  --container-bg: white;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+
+  --primary-color: #ff6666;
+  --primary-hover: #ff4d4d;
+
+  --text-main: #333;
+  --text-sub: #666;
+
+  --task-bg: rgba(255, 255, 212, 0.5);
+  --task-done: #999;
+
+  --border-color: #ccc;
+  --danger-hover: #cc0000;
+}
+
+/* 화면 중앙 근처 배치 */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;   /* 가로 중앙 */
+  align-items: flex-start;   /* 세로 상단 기준 */
+  padding-top: 60px;        /* 상단 여백 */
+  background: var(--bg-gradient);
+  font-family: Arial, sans-serif;
+}
+
+/* 컨테이너 */
+.todo-container {
+  width: 400px;
+  max-height: 90vh;         /* 화면 높이에 맞게 제한 */
+  padding: 30px;
+  border-radius: 15px;
+  background-color: var(--container-bg);
+  box-shadow: 0 0 10px var(--shadow-color);
+  display: flex;
+  flex-direction: column;
+}
+
+/* 헤더 */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 35px;
+  color: var(--text-main);
+}
+
+header p {
+  font-size: 14px;
+  color: var(--text-sub);
+}
+
+/* 입력창 */
+.todo-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+}
+
+.todo-input button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.todo-input button:hover {
+  background-color: var(--primary-hover);
+}
+
+/* 할 일 목록 */
+.task-list {
+  flex: 1;                  /* 남은 공간 모두 채우기 */
+  max-height: 600px;        /* 원하는 최대 높이 */
+  overflow-y: auto;         /* 내용이 넘치면 스크롤 */
+  padding-right: 5px;       /* 스크롤 겹침 방지 */
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  border-radius: 8px;
+  background-color: var(--task-bg);
+}
+
+.task-list li .left {
+  display: flex;
+  align-items: center;
+}
+
+.task-list li span {
+  cursor: pointer;
+}
+
+/* 체크박스 커스텀 */
+.task-list input[type="checkbox"] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.task-list input[type="checkbox"]:checked {
+  background-color: var(--primary-color);
+}
+
+.task-list input[type="checkbox"]:checked::after {
+  content: "✔";
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: -2px;
+  left: 2px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: var(--task-done);
+}
+
+.task-list button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.task-list button:hover {
+  color: var(--danger-hover);
+}
+
+.editing {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  outline: none;
+  padding: 3px;
+}
+
+/* 날짜 숫자 굵게 */
+.date-number {
+  font-weight: bold;
+}

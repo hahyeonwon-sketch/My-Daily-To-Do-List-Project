@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daily To-Do List</title>
+    <link rel="stylesheet" href="todo-list.css">
+</head>
+<body>
+    <div class="todo-container">
+
+        <!-- 제목 -->
+        <header>
+            <h1>My Daily To-Do</h1>
+            <p id="date"></p>
+        </header>
+
+        <!-- 입력 영역 -->
+        <section class="todo-input">  
+            <input type="text" id="task-input" placeholder="할 일을 입력하세요 🙂">
+            <button type="button" onclick="addTask()">+</button>
+        </section>
+
+        <!-- 목록 영역 -->
+        <section class="task-list">
+            <ul id="task-list"></ul>
+        </section>
+
+    </div>
+
+    <script src="todo-list.js"></script>
+</body>
+</html>
